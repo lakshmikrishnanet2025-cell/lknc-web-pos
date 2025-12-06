@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,3 +13,19 @@ input, select {
 button {
   @apply rounded px-4 py-2 bg-primary text-white hover:bg-green-800;
 }
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+input, select {
+  @apply border rounded px-2 py-1 outline-none;
+}
+button {
+  @apply rounded px-4 py-2 bg-primary text-white hover:bg-green-800;
+}
+>>>>>>> 690e282eb5642abfbac3004b594c5b45310af133
